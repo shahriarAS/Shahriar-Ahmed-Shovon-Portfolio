@@ -14,9 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
-      rel="stylesheet"
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+        rel="stylesheet"
+        type="text/css"
     />
+</noscript>
   </head>
   <body
     class="bg-zinc-900 w-full h-full px-8 lg:px-64 pt-16 lg:pt-24 text-zinc-200 text-base md:text-lg"
