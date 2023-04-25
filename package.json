@@ -1,6 +1,7 @@
 {
   "name": "shahriar-portfolio",
   "packageManager": "yarn@3.2.0",
+  "tailwind-build": "npx tailwindcss -i ./tailwindSRC.css -o ./tailwind.css --minify",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
