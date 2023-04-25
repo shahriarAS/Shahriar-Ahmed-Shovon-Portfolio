@@ -14,18 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-/>
-<noscript>
-    <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
         rel="stylesheet"
         type="text/css"
-    />
-</noscript>
+      />
+    </noscript>
   </head>
   <body
     class="w-full h-full px-8 pt-16 text-base bg-zinc-900 lg:px-64 lg:pt-24 text-zinc-200 md:text-lg"
@@ -39,9 +39,43 @@
         Kushtia, Bangladesh |
         <span class="text-emerald-500">shovonshahriar01@gmail.com</span>
       </h2>
-      <p class="mt-4 introduction-details">
-        As a full-stack web developer, I have extensive experience in both backend and frontend development. I specialize in building robust web applications using NodeJS, Express, and MongoDB on the backend, as well as leveraging Javascript, React, Next, Tailwind, and other cutting-edge frontend technologies.
-      </p>
+    </section>
+    <section class="my-8 mt-16 about-me">
+      <h2 class="pl-4 text-2xl border-l-4 section-title border-emerald-500">
+        About me
+      </h2>
+      <ul class="pl-4 mt-4 text-base list-disc about-me">
+        <li>
+          Proficient in Javascript, Typescript, and Python programming
+          languages.
+        </li>
+        <li>
+          Skilled in frontend frameworks like React and Next.js, and backend
+          development with Node.js and Express.js.
+        </li>
+        <li>
+          Familiar with databases such as MongoDB and PostgreSQL, as well as
+          tools like Git, Npm, Yarn, Vite, and Webpack.
+        </li>
+        <li>
+          Strong foundation in testing with tools like Jest and React Testing
+          Library.
+        </li>
+        <li>Experience with CMS platforms like Wordpress and Strapi.</li>
+        <li>Keen attention to detail and strong problem-solving skills.</li>
+        <li>
+          Passionate about staying up-to-date with the latest industry trends
+          and continuously learning and growing.
+        </li>
+        <li>
+          Enthusiastic team player and eager to contribute to meaningful
+          projects.
+        </li>
+        <li>
+          Committed to delivering high-quality solutions while working under
+          pressure and navigating complex projects.
+        </li>
+      </ul>
     </section>
     <section class="my-8 mt-16 my-links">
       <h2 class="pl-4 text-2xl border-l-4 section-title border-emerald-500">
@@ -88,7 +122,7 @@
         >
       </div>
     </section>
-    
+
     <section class="my-8 mt-16 my-projects">
       <h2 class="pl-4 text-2xl border-l-4 section-title border-emerald-500">
         Projects
@@ -96,34 +130,44 @@
       <div
         class="grid grid-cols-1 gap-4 my-4 mt-8 text-sm my-projects-container md:grid-cols-2 2xl:grid-cols-3 gap-y-8"
       >
-      <div class="p-4 rounded-lg project bg-zinc-800">
+        <div class="p-4 rounded-lg project bg-zinc-800">
           <h3 class="mb-2 text-lg font-bold project-title">
             Interactive W9 Form Filing and TIN Checking SaaS Web Application
             <span class="text-sm font-normal">( Full stack )</span>
           </h3>
-          <p class="project-desription">
+          <div class="project-desription">
             <p>
-              This platform allows users to conveniently file and sign their W9 form in an interactive manner. Also offers a TIN checking service to ensure the accuracy of TIN number. The subscription model of payment ensures that users can access the service on an ongoing basis.
-              </p>
-              <br>
-              <p><span class="font-bold">Tools:</span> Next.JS, TailwindCSS, React-pdf, Paypal, Stripe, Firebase, Zustand</p>
-              <br>
-              <p class="font-bold">Features:</p>
-              <ul class="pl-4 list-disc">
-                <li>User Authentication ( Sign Up, Login, Password Reset )</li>
-                <li>Interactive w9form filing</li>
-                <li>Built in e-signature</li>
-                <li>TIN checking service ( Also save result for future access )</li>
-                <li>Built in email delivery</li>
-                <li>User Profile ( Custody to keep w9Form saved )</li>
-                <li>Subscription model of payment ( Stripe, Paypal )</li>
-              </ul>
-          </p>
+              This platform allows users to conveniently file and sign their W9
+              form in an interactive manner. Also offers a TIN checking service
+              to ensure the accuracy of TIN number. The subscription model of
+              payment ensures that users can access the service on an ongoing
+              basis.
+            </p>
+            <br />
+            <p>
+              <span class="font-bold">Tools:</span> Next.JS, TailwindCSS,
+              React-pdf, Paypal, Stripe, Firebase, Zustand
+            </p>
+            <br />
+            <p class="font-bold">Features:</p>
+            <ul class="pl-4 list-disc">
+              <li>User Authentication ( Sign Up, Login, Password Reset )</li>
+              <li>Interactive w9form filing</li>
+              <li>Built in e-signature</li>
+              <li>
+                TIN checking service ( Also save result for future access )
+              </li>
+              <li>Built in email delivery</li>
+              <li>User Profile ( Custody to keep w9Form saved )</li>
+              <li>Subscription model of payment ( Stripe, Paypal )</li>
+            </ul>
+          </div>
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
             <p
-            title="Can't provide source code because of security."
+              title="Can't provide source code because of security."
               class="p-2 text-center transition rounded-lg cursor-not-allowed pointer-events-none bg-zinc-700/50 hover:bg-zinc-700/40"
-              >Github
+            >
+              Github
             </p>
             <a
               href="https://www.formw9.com/"
@@ -138,7 +182,7 @@
             Multiplayer Object Finding Game
             <span class="text-sm font-normal">( Full stack )</span>
           </h3>
-          <p class="project-desription">
+          <div class="project-desription">
             <p>
                 This is a web-based singlePlayer + multiplayer game.
               </p>
@@ -154,7 +198,7 @@
                 <li>Multiplayer Game ( Host game, join game and play with friends )</li>
                 <li>Online Game.</li>
               </ul>
-          </p>
+          </div>
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
             <a
               href="https://github.com/shahriar-programmer/hidden-object"
@@ -180,9 +224,12 @@
               A complete full-stack course management system. This is a very
               similar website to Udemy / Coursera.
             </p>
-            <br>
-            <p><span class="font-bold">Tools:</span> NodeJs, Express, React, MongoDB, Redux, Nodemailer</p>
-              <br>
+            <br />
+            <p>
+              <span class="font-bold">Tools:</span> NodeJs, Express, React,
+              MongoDB, Redux, Nodemailer
+            </p>
+            <br />
             <p class="font-bold">Features:</p>
             <ul class="pl-4 list-disc">
               <li>Register, Login, Email Verify, Forgot Password etc</li>
@@ -199,7 +246,7 @@
             </ul>
           </div>
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
-<a
+            <a
               href="https://github.com/shahriar-programmer/umc-lms"
               target="_blank"
               class="p-2 text-center transition rounded-lg bg-zinc-700/50 hover:bg-zinc-700/40"
@@ -218,23 +265,29 @@
             Multiplayer Quiz Game
             <span class="text-sm font-normal">( Full stack )</span>
           </h3>
-          <p class="project-desription">
+          <div class="project-desription">
+            <p>This is a web-based singlePlayer + multiplayer game.</p>
+            <br />
             <p>
-                This is a web-based singlePlayer + multiplayer game.
-              </p>
-              <br>
-              <p><span class="font-bold">Tools:</span> React, NodeJs, Socket.io, Charts, Firebase, GeoJson, Zustand </p>
-              <br>
-              <p class="font-bold">Features:</p>
-              <ul class="pl-4 list-disc">
-                <li>User Sign Up, Login</li>
-                <li>User Profile ( Game History, Last 10 Match Graph, Update Profile )</li>
-                <li>Leaderboard ( Dynamic data from database )</li>
-                <li>SinglePlayer Game</li>
-                <li>Multiplayer Game ( Host game, join game and play with friends )</li>
-                <li>Online Game.</li>
-              </ul>
-          </p>
+              <span class="font-bold">Tools:</span> React, NodeJs, Socket.io,
+              Charts, Firebase, GeoJson, Zustand
+            </p>
+            <br />
+            <p class="font-bold">Features:</p>
+            <ul class="pl-4 list-disc">
+              <li>User Sign Up, Login</li>
+              <li>
+                User Profile ( Game History, Last 10 Match Graph, Update Profile
+                )
+              </li>
+              <li>Leaderboard ( Dynamic data from database )</li>
+              <li>SinglePlayer Game</li>
+              <li>
+                Multiplayer Game ( Host game, join game and play with friends )
+              </li>
+              <li>Online Game.</li>
+            </ul>
+          </div>
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
             <a
               href="https://github.com/shahriar-programmer/find-where-i-am"
@@ -326,7 +379,17 @@
       </div>
     </section>
     <footer class="mt-24 mb-2 text-xs text-center">
-            <p>Thanks <a href="https://brc-dd.me/" target="_blank" rel="nofollow" class="underline">Divyansh</a> for design inspiration</p>
+      <p>
+        Thanks
+        <a
+          href="https://brc-dd.me/"
+          target="_blank"
+          rel="nofollow"
+          class="underline"
+          >Divyansh</a
+        >
+        for design inspiration
+      </p>
     </footer>
   </body>
 </html>
