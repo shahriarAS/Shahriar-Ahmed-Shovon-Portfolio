@@ -129,6 +129,7 @@
       <div
         class="grid w-full grid-cols-1 gap-4 my-4 mt-8 text-sm my-projects-container md:grid-cols-2 2xl:grid-cols-3 gap-y-8"
       >
+        <!-- Interactive W9 Form Filing and TIN Checking SaaS Web Application -->
         <div class="p-4 rounded-lg project bg-zinc-800">
           <h3 class="mb-2 text-lg font-bold project-title">
             Interactive W9 Form Filing and TIN Checking SaaS Web Application
@@ -182,7 +183,8 @@
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
             <p
               title="Can't provide source code because of security."
-              class="p-2 text-center transition rounded-lg cursor-not-allowed pointer-events-none bg-zinc-700/50 hover:bg-zinc-700/40"
+              class="p-2 text-center transition rounded-lg pointer-events-none bg-zinc-700/50 hover:bg-zinc-700/40"
+              style="cursor: not-allowed;"
             >
               Github
             </p>
@@ -194,27 +196,89 @@
             >
           </div>
         </div>
-        <!-- <div class="p-4 rounded-lg project bg-zinc-800">
+
+        <!-- Instant search + filterable solution bookshop -->
+        <div class="p-4 rounded-lg project bg-zinc-800">
           <h3 class="mb-2 text-lg font-bold project-title">
-            Multiplayer Object Finding Game
+            Interactive E-Book Solution + Marketplace
             <span class="text-sm font-normal">( Full stack )</span>
           </h3>
           <div class="project-desription">
             <p>
-                This is a web-based singlePlayer + multiplayer game.
-              </p>
-              <br>
-              <p><span class="font-bold">Tools:</span> React, NodeJs, Socket.io, Charts, Firebase, Zustand </p>
-              <br>
-              <p class="font-bold">Features:</p>
-              <ul class="pl-4 list-disc">
-                <li>User Sign Up, Login</li>
-                <li>User Profile ( Game History, Last 10 Match Graph, Update Profile )</li>
-                <li>Leaderboard ( Dynamic data from database )</li>
-                <li>SinglePlayer Game</li>
-                <li>Multiplayer Game ( Host game, join game and play with friends )</li>
-                <li>Online Game.</li>
-              </ul>
+              An interactive academic solution e-book application that enables
+              students to read online book, instant search by any text of books,
+              and filter content by chapter, exercises.
+            </p>
+            <br />
+            <p>
+              <span class="font-bold">Tools:</span> Next.JS, Redux, RTK,
+              TailwindCSS, Express, MongoDB.
+            </p>
+            <br />
+            <p class="font-bold">Features:</p>
+            <ul class="pl-4 list-disc">
+              <li>Responsive UI/UX for seamless learning across devices.</li>
+              <li>Node.js/Express for scalable server-side functionality.</li>
+              <li>MongoDB for flexible data storage and retrieval of learning materials.</li>
+              <li>Implemented a robust Content Management System (CMS) using NextJS + Express for efficient resource management by educators.</li>
+              <li>Built a powerful search functionality using Elasticsearch for faceted search and rapid content discovery with filter systems and an innovative code search feature.</li>
+              <li>Integrated gamification elements using a points system and progress bars in frontend for a captivating learning experience.</li>
+              liImplemented real-time updates with WebSockets for a constantly evolving knowledge base.
+            </ul>
+          </div>
+          <div class="grid grid-cols-2 gap-4 mt-4 project-links">
+            <p
+              title="Can't provide source code because of security."
+              class="p-2 text-center transition rounded-lg pointer-events-none bg-zinc-700/50 hover:bg-zinc-700/40"
+              style="cursor: not-allowed;"
+            >
+              Github
+            </p>
+            <a
+              href="https://www.formw9.com/"
+              target="_blank"
+              class="p-2 text-center transition rounded-lg bg-zinc-700/50 hover:bg-zinc-700/40"
+              >Live</a
+            >
+          </div>
+        </div>
+
+        <!-- Multiplayer Object Finding Game -->
+        <div class="p-4 rounded-lg project bg-zinc-800">
+          <h3 class="mb-2 text-lg font-bold project-title">
+            Multiplayer Object Finding Game
+            <span class="text-sm font-normal">( Serverless )</span>
+          </h3>
+          <div class="project-desription">
+            <p>
+              Developed a web-based singleplayer and multiplayer game aim to
+              find different objects. Have user sign up and login, user profiles
+              featuring game history and match graphs, dynamic leaderboard,
+              singleplayer and multiplayer game modes, and online gameplay.
+            </p>
+            <br />
+            <p>
+              <span class="font-bold">Tools:</span> React, NodeJs, Socket.io,
+              Charts, Firebase, Zustand
+            </p>
+            <br />
+            <p class="font-bold">Features:</p>
+            <ul class="pl-4 list-disc">
+              <li>User authentication (signup and login)</li>
+              <li>
+                Multiplayer game mode with the ability to host and join games
+                and play with friends
+              </li>
+              <li>Leaderboard with dynamic data from the database</li>
+              <li>
+                User profile with game history, last 10 match graph, and ability
+                to update profile
+              </li>
+              <li>
+                Complex gameplay with multiple level, mode and random
+                challenges.
+              </li>
+            </ul>
           </div>
           <div class="grid grid-cols-2 gap-4 mt-4 project-links">
             <a
@@ -230,67 +294,9 @@
               >Live</a
             >
           </div>
-        </div> -->
-        <div class="p-4 rounded-lg project bg-zinc-800">
-          <h3 class="mb-2 text-lg font-bold project-title">
-            Online Course Website
-            <span class="text-sm font-normal">( Full stack )</span>
-          </h3>
-          <div class="project-desription">
-            <p>
-              Developed a full-stack course management system featuring secure
-              user authentication, separate admin and user dashboards, intuitive
-              course creation and management, enrollment and progress tracking,
-              secure payment processing, and order management.
-            </p>
-            <br />
-            <p>
-              <span class="font-bold">Tools:</span> NodeJs, Express, React,
-              MongoDB, Redux, Nodemailer
-            </p>
-            <br />
-            <p class="font-bold">Features:</p>
-            <ul class="pl-4 list-disc">
-              <li>
-                Implemented registration, login, email verification, and forgot
-                password features for secure user access to the application.
-              </li>
-              <li>
-                Developed a separate dashboard for admin and users to manage
-                courses and orders, along with user profile management features.
-              </li>
-              <li>
-                Built an intuitive interface for creating, updating, and
-                deleting courses, modules, and content, along with additional
-                document management features.
-              </li>
-              <li>
-                Created a system for users to enroll in courses, watch course
-                content, and read course material, with a progress tracking
-                feature.
-              </li>
-              <li>
-                Integrated payment gateways such as Stripe or PayPal for secure
-                and convenient transactions, along with order management
-                features.
-              </li>
-            </ul>
-          </div>
-          <div class="grid grid-cols-2 gap-4 mt-4 project-links">
-            <a
-              href="https://github.com/shahriarAS/umc-lms"
-              target="_blank"
-              class="p-2 text-center transition rounded-lg bg-zinc-700/50 hover:bg-zinc-700/40"
-              >Github</a
-            >
-            <a
-              href="https://umc2frontend.netlify.app/"
-              target="_blank"
-              class="p-2 text-center transition rounded-lg bg-zinc-700/50 hover:bg-zinc-700/40"
-              >Live</a
-            >
-          </div>
         </div>
+        
+        <!-- Multiplayer Quiz Game -->
         <div class="p-4 rounded-lg project bg-zinc-800">
           <h3 class="mb-2 text-lg font-bold project-title">
             Multiplayer Quiz Game
